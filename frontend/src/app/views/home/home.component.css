@@ -8,3 +8,14 @@
   font-size: 1.1rem;
 }
 
+.home .subtitle strong{
+  color: purple ;
+}
+
+.home {
+  background-color: #8B3BD1;
+}
+
+.home img{
+  width: 100%;
+}
