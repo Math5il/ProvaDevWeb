@@ -22,7 +22,7 @@ export class PaymentCreateComponent implements OnInit {
 
   createPayment(): void {
     this.paymentService.create(this.payment).subscribe(() => {
-      this.paymentService.showMessage("Cartão cadastrado!");
+      this.paymentService.showMessage("Brinquedo cadastrado!");
       this.router.navigate(["/payments"]);
     });
   }
